@@ -47,6 +47,9 @@ Built an interactive dashboard to display the recovered data.
 
 ## 📷 Project Visuals
 
+### 🎥 Interactive Demo
+![Dashboard Demo](Dashboard/Dashboard_Demo.gif)
+
 ### 🖥️ Desktop Dashboard
 ![Desktop Dashboard](Dashboard/Dashboard_Desktop.png)
 
