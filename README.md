@@ -34,7 +34,7 @@ The "Cafe House" records were corrupted, with many transactions missing the tota
 Built an interactive dashboard to display the recovered data.
 - **Power Query:** Used the "Replace Values" feature to change `null` entries in `Item`, `Location`, and `Payment_Method` to `UNRECORDED`.
 - **DAX Measure:** Created one specific measure to track data quality:
-  - `Unrecorded Items Count = CALCULATE(COUNTROWS(cafe_data_clean), cafe_data_clean[Item] = "UNRECORDED")`
+  - `Unrecorded Items = CALCULATE(COUNTROWS(cafe_data_clean), cafe_data_clean[Item] = "UNRECORDED")`
 
 ---
 
